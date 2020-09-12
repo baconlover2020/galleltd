@@ -1,0 +1,39 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background:#4d4d4d;
+}
+
+#logo{width:30%;margin:0;}
+#titl{color:white;text-align:center;position:relative;bottom:40px;}
+.param input{
+    display:block;
+    margin: 5% auto;
+    background:none;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 2% 5%;
+    outline:none;
+    color:white;
+    border-radius: 24px;
+    
+}
+.loginbox{
+    background-color:#191919;
+    position: absolute;
+    top:20%;
+    left: 30%;
+    margin: auto;
+    width:40%;
+    height:60%;
+     
+
+}
+
+#user:hover, #pass:hover{
+    width: 50%;
+   border-color:#2ecc71;
+}
+#butt{border-color:#2ecc71;cursor: pointer;}
